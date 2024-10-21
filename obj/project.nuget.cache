@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "dgSpecHash": "JeOnkjKIDNQ=",
+  "success": true,
+  "projectFilePath": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/hansjakobvinde/.nuget/packages/avalonia/11.1.4/avalonia.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.angle.windows.natives/2.1.22045.20230930/avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.controls.colorpicker/11.1.4/avalonia.controls.colorpicker.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.controls.datagrid/11.1.4/avalonia.controls.datagrid.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.desktop/11.1.4/avalonia.desktop.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.diagnostics/11.1.4/avalonia.diagnostics.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.fonts.inter/11.1.4/avalonia.fonts.inter.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.freedesktop/11.1.4/avalonia.freedesktop.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.native/11.1.4/avalonia.native.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.remote.protocol/11.1.4/avalonia.remote.protocol.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.skia/11.1.4/avalonia.skia.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.themes.fluent/11.1.4/avalonia.themes.fluent.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.themes.simple/11.1.4/avalonia.themes.simple.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.win32/11.1.4/avalonia.win32.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/avalonia.x11/11.1.4/avalonia.x11.11.1.4.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/dynamicobj/2.0.0/dynamicobj.2.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/fsharp.core/8.0.400/fsharp.core.8.0.400.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/giraffe.viewengine.strongname/2.0.0-alpha1/giraffe.viewengine.strongname.2.0.0-alpha1.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/harfbuzzsharp/7.3.0.2/harfbuzzsharp.7.3.0.2.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/harfbuzzsharp.nativeassets.linux/7.3.0.2/harfbuzzsharp.nativeassets.linux.7.3.0.2.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.2/harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/7.3.0.2/harfbuzzsharp.nativeassets.webassembly.7.3.0.2.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.2/harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/microsoft.io.recyclablememorystream/3.0.0/microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/oxyplot/2014.1.517/oxyplot.2014.1.517.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/oxyplot.avalonia/2.1.0/oxyplot.avalonia.2.1.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/oxyplot.core/2.1.0/oxyplot.core.2.1.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/plotly.net/5.1.0/plotly.net.5.1.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/skiasharp.nativeassets.linux/2.88.8/skiasharp.nativeassets.linux.2.88.8.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/skiasharp.nativeassets.macos/2.88.8/skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.8/skiasharp.nativeassets.webassembly.2.88.8.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/system.io.pipelines/6.0.0/system.io.pipelines.6.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/system.reactive/6.0.0/system.reactive.6.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/tmds.dbus.protocol/0.16.0/tmds.dbus.protocol.0.16.0.nupkg.sha512",
+    "/Users/hansjakobvinde/.nuget/packages/websocket.client/5.1.2/websocket.client.5.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "GraphingTest depends on OxyPlot (>= 2.1.0) but OxyPlot 2.1.0 was not found. An approximate best match of OxyPlot 2014.1.517 was resolved.",
+      "libraryId": "OxyPlot",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OxyPlot 2014.1.517' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OxyPlot",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
