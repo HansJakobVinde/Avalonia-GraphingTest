@@ -33,21 +33,24 @@ public class WebSocketHandler
 
     private void OnMessageReceived(ResponseMessage message)
     {
-        try
+        if (!string.IsNullOrEmpty(message.Text))
         {
-            var dataMessage = JsonSerializer.Deserialize<DataMessage>(message.Text, new JsonSerializerOptions
+            try
             {
-                PropertyNameCaseInsensitive = true
-            });
+                var dataMessage = JsonSerializer.Deserialize<DataMessage>(message.Text, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
 
-            if (dataMessage != null)
-            {
-                OnDataReceived?.Invoke(dataMessage);
+                if (dataMessage != null)
+                {
+                    OnDataReceived?.Invoke(dataMessage);
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Failed to parse WebSocket message: {ex.Message}");
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to parse WebSocket message: {ex.Message}");
+            }
         }
     }
 

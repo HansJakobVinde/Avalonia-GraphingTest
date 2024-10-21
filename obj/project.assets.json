@@ -593,31 +593,6 @@
           }
         }
       },
-      "OxyPlot/2014.1.517": {
-        "type": "package",
-        "compile": {
-          "lib/net45/OxyPlot.WindowsForms.dll": {
-            "related": ".pdb;.XML"
-          },
-          "lib/net45/OxyPlot.Wpf.dll": {
-            "related": ".pdb;.XML"
-          },
-          "lib/net45/OxyPlot.Xps.dll": {
-            "related": ".pdb;.XML"
-          }
-        },
-        "runtime": {
-          "lib/net45/OxyPlot.WindowsForms.dll": {
-            "related": ".pdb;.XML"
-          },
-          "lib/net45/OxyPlot.Wpf.dll": {
-            "related": ".pdb;.XML"
-          },
-          "lib/net45/OxyPlot.Xps.dll": {
-            "related": ".pdb;.XML"
-          }
-        }
-      },
       "OxyPlot.Avalonia/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -1693,54 +1668,6 @@
         "packageIcon.png"
       ]
     },
-    "OxyPlot/2014.1.517": {
-      "sha512": "x2kI4JyC5diUSD8xSo8TiE4Ab+BrqLD8DusI5+4w6kMTtcKgx5kcH+SlgRGeSMFtZb3X7ABFHKrGpqbWB6ILZw==",
-      "type": "package",
-      "path": "oxyplot/2014.1.517",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "AUTHORS",
-        "CONTRIBUTORS",
-        "LICENSE",
-        "README.md",
-        "lib/OxyPlot.dll",
-        "lib/OxyPlot.pdb",
-        "lib/OxyPlot.xml",
-        "lib/net40/OxyPlot.WindowsForms.XML",
-        "lib/net40/OxyPlot.WindowsForms.dll",
-        "lib/net40/OxyPlot.WindowsForms.pdb",
-        "lib/net40/OxyPlot.Wpf.XML",
-        "lib/net40/OxyPlot.Wpf.dll",
-        "lib/net40/OxyPlot.Wpf.pdb",
-        "lib/net40/OxyPlot.Xps.XML",
-        "lib/net40/OxyPlot.Xps.dll",
-        "lib/net40/OxyPlot.Xps.pdb",
-        "lib/net45/OxyPlot.WindowsForms.XML",
-        "lib/net45/OxyPlot.WindowsForms.dll",
-        "lib/net45/OxyPlot.WindowsForms.pdb",
-        "lib/net45/OxyPlot.Wpf.XML",
-        "lib/net45/OxyPlot.Wpf.dll",
-        "lib/net45/OxyPlot.Wpf.pdb",
-        "lib/net45/OxyPlot.Xps.XML",
-        "lib/net45/OxyPlot.Xps.dll",
-        "lib/net45/OxyPlot.Xps.pdb",
-        "lib/portable-windows8+wpa81/OxyPlot.WindowsUniversal/OxyPlot.WindowsUniversal.dll",
-        "lib/portable-windows8+wpa81/OxyPlot.WindowsUniversal/OxyPlot.WindowsUniversal.pdb",
-        "lib/portable-windows8+wpa81/OxyPlot.WindowsUniversal/OxyPlot.WindowsUniversal.pri",
-        "lib/portable-windows8+wpa81/OxyPlot.WindowsUniversal/OxyPlot.WindowsUniversal.xml",
-        "lib/portable-windows8+wpa81/OxyPlot.WindowsUniversal/OxyPlot.WindowsUniversal.xr.xml",
-        "lib/portable-windows8+wpa81/OxyPlot.WindowsUniversal/OxyPlot.WindowsUniversal/Themes/Generic.xbf",
-        "lib/sl5/OxyPlot.Silverlight.XML",
-        "lib/sl5/OxyPlot.Silverlight.dll",
-        "lib/sl5/OxyPlot.Silverlight.pdb",
-        "lib/windowsphone8/OxyPlot.WP8.XML",
-        "lib/windowsphone8/OxyPlot.WP8.dll",
-        "lib/windowsphone8/OxyPlot.WP8.pdb",
-        "oxyplot.2014.1.517.nupkg.sha512",
-        "oxyplot.nuspec"
-      ]
-    },
     "OxyPlot.Avalonia/2.1.0": {
       "sha512": "eYIRqGFeIKg2Iv4kdcfxbQvfqmApqBe556WZjlQ0MU3gH+KRVetigYSFFi74yyUEFLI9kbNwAvS41FeTHgZBrQ==",
       "type": "package",
@@ -2139,8 +2066,8 @@
       "Avalonia.Diagnostics >= 11.1.4",
       "Avalonia.Fonts.Inter >= 11.1.4",
       "Avalonia.Themes.Fluent >= 11.1.4",
-      "OxyPlot >= 2.1.0",
       "OxyPlot.Avalonia >= 2.1.0",
+      "OxyPlot.Core >= 2.1.0",
       "Plotly.NET >= 5.1.0",
       "Websocket.Client >= 5.1.2"
     ]
@@ -2151,11 +2078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj",
+      "projectUniqueName": "/Users/hansjakobvinde/Revolve/GraphingTest/GraphingTest.csproj",
       "projectName": "GraphingTest",
-      "projectPath": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj",
+      "projectPath": "/Users/hansjakobvinde/Revolve/GraphingTest/GraphingTest.csproj",
       "packagesPath": "/Users/hansjakobvinde/.nuget/packages/",
-      "outputPath": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/obj/",
+      "outputPath": "/Users/hansjakobvinde/Revolve/GraphingTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hansjakobvinde/.nuget/NuGet/NuGet.Config"
@@ -2211,11 +2138,11 @@
             "target": "Package",
             "version": "[11.1.4, )"
           },
-          "OxyPlot": {
+          "OxyPlot.Avalonia": {
             "target": "Package",
             "version": "[2.1.0, )"
           },
-          "OxyPlot.Avalonia": {
+          "OxyPlot.Core": {
             "target": "Package",
             "version": "[2.1.0, )"
           },
@@ -2247,27 +2174,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "GraphingTest depends on OxyPlot (>= 2.1.0) but OxyPlot 2.1.0 was not found. An approximate best match of OxyPlot 2014.1.517 was resolved.",
-      "libraryId": "OxyPlot",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'OxyPlot 2014.1.517' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "OxyPlot",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

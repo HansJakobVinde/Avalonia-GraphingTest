@@ -40,9 +40,6 @@
 /Users/hansjakobvinde/.nuget/packages/newtonsoft.json/13.0.1/lib/netstandard2.0/Newtonsoft.Json.dll
 /Users/hansjakobvinde/.nuget/packages/oxyplot.avalonia/2.1.0/lib/netstandard2.0/OxyPlot.Avalonia.dll
 /Users/hansjakobvinde/.nuget/packages/oxyplot.core/2.1.0/lib/netstandard2.0/OxyPlot.dll
-/Users/hansjakobvinde/.nuget/packages/oxyplot/2014.1.517/lib/net45/OxyPlot.WindowsForms.dll
-/Users/hansjakobvinde/.nuget/packages/oxyplot/2014.1.517/lib/net45/OxyPlot.Wpf.dll
-/Users/hansjakobvinde/.nuget/packages/oxyplot/2014.1.517/lib/net45/OxyPlot.Xps.dll
 /Users/hansjakobvinde/.nuget/packages/plotly.net/5.1.0/lib/netstandard2.0/Plotly.NET.dll
 /Users/hansjakobvinde/.nuget/packages/skiasharp/2.88.8/lib/net6.0/SkiaSharp.dll
 /usr/local/share/dotnet/packs/Microsoft.NETCore.App.Ref/8.0.10/ref/net8.0/System.AppContext.dll

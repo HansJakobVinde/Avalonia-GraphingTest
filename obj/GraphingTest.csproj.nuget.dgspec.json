@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj": {}
+    "/Users/hansjakobvinde/Revolve/GraphingTest/GraphingTest.csproj": {}
   },
   "projects": {
-    "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj": {
+    "/Users/hansjakobvinde/Revolve/GraphingTest/GraphingTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj",
+        "projectUniqueName": "/Users/hansjakobvinde/Revolve/GraphingTest/GraphingTest.csproj",
         "projectName": "GraphingTest",
-        "projectPath": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/GraphingTest.csproj",
+        "projectPath": "/Users/hansjakobvinde/Revolve/GraphingTest/GraphingTest.csproj",
         "packagesPath": "/Users/hansjakobvinde/.nuget/packages/",
-        "outputPath": "/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/obj/",
+        "outputPath": "/Users/hansjakobvinde/Revolve/GraphingTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hansjakobvinde/.nuget/NuGet/NuGet.Config"
@@ -67,11 +67,11 @@
               "target": "Package",
               "version": "[11.1.4, )"
             },
-            "OxyPlot": {
+            "OxyPlot.Avalonia": {
               "target": "Package",
               "version": "[2.1.0, )"
             },
-            "OxyPlot.Avalonia": {
+            "OxyPlot.Core": {
               "target": "Package",
               "version": "[2.1.0, )"
             },

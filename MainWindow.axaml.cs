@@ -14,7 +14,7 @@ public partial class MainWindow : Window
     private List<DataPoint> dataPoints = new List<DataPoint>();
     private PlotModel plotModel = new PlotModel { Title = "Real-Time Data Visualization" };
     private OxyPlot.Series.LineSeries lineSeries = new OxyPlot.Series.LineSeries { Title = "Altitude" };
-    private WebSocketHandler webSocketHandler;
+    private WebSocketHandler? webSocketHandler;
 
     private DateTime _lastUpdate = DateTime.Now;
 

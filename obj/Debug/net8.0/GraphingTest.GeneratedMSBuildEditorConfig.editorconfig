@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GraphingTest
-build_property.ProjectDir = /Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/
+build_property.ProjectDir = /Users/hansjakobvinde/Revolve/GraphingTest/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/App.axaml]
+[/Users/hansjakobvinde/Revolve/GraphingTest/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/hansjakobvinde/Revolve/Avalonia-GraphingTest-1/MainWindow.axaml]
+[/Users/hansjakobvinde/Revolve/GraphingTest/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
